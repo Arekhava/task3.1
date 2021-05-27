@@ -1,4 +1,4 @@
-package by.validator;
+package by.epam.main.validator;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -6,8 +6,8 @@ import org.apache.log4j.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TriangleValidator {
-        private final static Logger logger = LogManager.getLogger(TriangleValidator.class);
+public class TriangleFileValidator {
+        private final static Logger logger = LogManager.getLogger(TriangleFileValidator.class);
 
         final static String REGEXP_VALID_STRING = "^([-+])?\\d+(\\s(([-+])?\\d+))*$";
 
@@ -18,4 +18,6 @@ public class TriangleValidator {
             logger.info("method isValid for line " + line + " returns " + isMatches);
             return isMatches;
         }
-    }
+
+
+}

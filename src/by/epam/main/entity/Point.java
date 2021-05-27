@@ -1,6 +1,6 @@
-package by.entity;
+package by.epam.main.entity;
 
-import java.util.Objects;
+
 
 public class Point {
     private double x;
